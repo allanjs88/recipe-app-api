@@ -1,6 +1,3 @@
 - language: python
 - python: 
-  - "3.10" 
-
-- services:
-  - docker
+  - "3.10"
