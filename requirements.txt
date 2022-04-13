@@ -1,4 +1,4 @@
 Django==4.0.4
 djangorestframework==3.13.1
 
-flake>=3.6.0,<3.7.0
+flake8>=3.6.0,<3.7.0
