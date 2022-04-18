@@ -1,4 +1,4 @@
-FROM python:3.10-alpine
+FROM python:3.7-alpine
 LABEL authors="Allan Murillo"
 
 ENV PYTHONUNBUFFERED 1
