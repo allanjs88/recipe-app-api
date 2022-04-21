@@ -1,4 +1,3 @@
-import imp
 import time
 
 from django.db import connections
@@ -7,7 +6,7 @@ from django.core.management import BaseCommand
 
 
 class Command(BaseCommand):
-    """Django command to pau execution until databse is available"""
+    """Django command to pause execution until database is available"""
 
     def handle(self, *args, **options):
         self.stdout.write('Waiting for databse...')
